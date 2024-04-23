@@ -1,3 +1,4 @@
+/* problem 1 */
 #div1{
     background-color: green;
     height: 100px;
@@ -5,3 +6,28 @@
     border-radius: 50%;
 }
 
+/* problem 2 */
+*{
+    padding: 0;
+    color: White;
+    text-decoration: none;
+}
+#navbar{
+    background-color: #0f1111;
+    height: 60px;
+    gap: 200px;
+
+}
+
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+
+#searchbutton{
+    background-color: #f08804;
+}
+
+a{
+    margin-right: 200px;
+}
