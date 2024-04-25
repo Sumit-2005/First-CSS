@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-div{
+#maindiv{
     background-color: #0f1111;
     height: 60px;
 }
@@ -21,4 +21,26 @@ a{
     margin-right: 200px;
     color: white;
     text-decoration: none;
+}
+
+div{
+    margin: 10px;
+}
+
+.one{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+#div1{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+#div2{
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+#div3{
+    background-color: rgba(0, 0, 255, 0.5);
 }
