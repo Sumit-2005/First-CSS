@@ -44,3 +44,13 @@ div{
 #div3{
     background-color: rgba(0, 0, 255, 0.5);
 }
+
+#foot{
+    background-color: #0f1111;
+    text-align: center;
+    color: white;
+}
+
+#content{
+    height: 600px;
+}
