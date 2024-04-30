@@ -16,3 +16,19 @@ a{
     color: yellow;
     text-decoration: none;
 }
+
+#outer{
+    background-color: black;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 200px;
+    margin: 10px;
+}
+
+#inner{
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+}
