@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 5px;
     padding: 0;
 }
 
@@ -7,6 +7,7 @@ div{
     height: 100px;
     width: 100px;
     background-color: orange;
+    border: 2px solid black;
 }
 
 @media (max-width : 300px){
@@ -31,4 +32,11 @@ div{
     div{
         background-color: blue;
     }
+}
+
+div:hover{
+    height: 95px;
+    width: 95px;
+    background-color: red;
+    color: white;
 }
