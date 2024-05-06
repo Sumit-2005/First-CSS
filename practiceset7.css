@@ -4,39 +4,22 @@
 }
 
 div{
-    height: 100px;
-    width: 100px;
+    height: 28px;
+    width: 90px;
+    text-align: center;
+    font-size: 15px;
     background-color: orange;
     border: 2px solid black;
-}
-
-@media (max-width : 300px){
-    div{
-        background-color: green;
-    }
-}
-
-@media (min-width:300px) and (max-width:400px){
-    div{
-        background-color: pink;
-    }
-}
-
-@media (min-width:400px) and (max-width:600px){
-    div{
-        background-color: red;
-    }
-}
-
-@media (min-width:600px){
-    div{
-        background-color: blue;
-    }
+    transition-property: all;
+    transition-duration: 80ms;
+    transition-timing-function: ease-in;
 }
 
 div:hover{
-    height: 95px;
-    width: 95px;
+    height: 30px;
+    width: 100px;
+    font-size: 16px;
+    text-align: center;
     background-color: red;
     color: white;
 }
